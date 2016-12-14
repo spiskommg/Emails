@@ -1,2 +1,0 @@
-# Emails
-responsive email templates
