@@ -5,7 +5,7 @@
 body,
 html,
 .body {
-  background: #f3f3f3 !important;
+  background: #fff !important;
 }
 
 .container.header {
@@ -65,4 +65,30 @@ table.button.google table td {
 
 h4 {
   margin-top:0 !important;
+}
+#ma-recruitment {
+
+  p {
+    color:#54565b;
+  }
+}
+
+.ribbon {
+  font-weight:bold;
+  display:table;
+  line-height:27px;
+  padding-left:5px;
+  clear:both;
+  background-color:#ed1175;
+  color:#fff;
+  display:inline-block;
+  width:220px;
+}
+.wrapper.summit {
+  background-color:#fce2cd !important;
+}
+.wrapper.rewards, .wrapper.blue {
+  .connectbar {
+    background-color:#682f73 !important;
+  }
 }

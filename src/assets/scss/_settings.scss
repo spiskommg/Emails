@@ -20,6 +20,7 @@
 
 $primary-color: #653366;
 $secondary-color: #777777;
+$tan-color:#f7fcea;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -31,20 +32,26 @@ $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 600px;
 $global-width-small: 95%;
-$global-gutter: 16px;
-$body-background: $light-gray;
+$global-gutter: 0px;
+$body-background: $white;
 $container-background: $white;
-$global-padding: 16px;
-$global-margin: 16px;
+$global-padding: 0px;
+$global-margin:0px;
 $global-radius: 30px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
+
+p {
+  -webkit-margin-before:0px;
+  -webkit-margin-after:0px;
+
+}
 
 // 2. Grid
 // -------
 
 $grid-column-count: 12;
-$column-padding-bottom: 0px;//$global-padding;
+$column-padding-bottom: $global-padding;
 $container-radius: 20px;
 
 // 3. Block Grid
@@ -56,22 +63,22 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
-$body-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$global-font-color: #77777a;//$black;
+$body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
-$global-line-height: 21px;
+$global-line-height: 24px;
 $global-font-size: 14px;
-$body-line-height: $global-line-height;
-$header-font-family: Tahoma, Helvetica, Arial, sans-serif;
-$header-font-weight: $global-font-weight;
+$body-line-height: 20px; //$global-line-height;
+$header-font-family: Helvetica, Arial, sans-serif;
+$header-font-weight: bold;
 $h1-font-size: 34px;
 $h2-font-size: 30px;
 $h3-font-size: 24px;
 $h4-font-size: 21px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 10px;
+$header-margin-bottom: 5px;
 $paragraph-margin-bottom: 10px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
@@ -84,7 +91,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid #d7d7d7 !important;
+$hr-border: 1px solid #cacaca !important;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
@@ -146,3 +153,40 @@ $thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
 $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
+
+
+#californiawater center{
+
+    background-color:#2EBEE9;
+
+}
+
+.lt-blue table td {
+    background-color:#26c2ff;
+}
+
+.product-reviews {
+  h4 {
+    font-size:16px;
+    color:#6a2f73;
+    font-weight:bold;
+  }
+  h6 {
+    font-size:14px;
+    color:#333;
+  }
+  .spacer {
+    border-bottom:1px solid #f6f6f6;
+    margin-bottom:24px;
+  }
+  hr {
+    border-color:#fcfcfc!important;
+    color:#fff;
+  }
+}
+
+#rewards-newsletter {
+ .columns {
+    padding:0 !important;
+  }
+}
