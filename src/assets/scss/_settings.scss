@@ -154,6 +154,9 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
+ul {
+  -webkit-padding-start: 0px !important;
+}
 
 #californiawater center{
 
@@ -188,5 +191,16 @@ $thumbnail-radius: $global-radius;
 #rewards-newsletter {
  .columns {
     padding:0 !important;
+  }
+}
+
+.hr {
+  border-bottom:2px solid #f3f3f3 !important;
+  margin-bottom:20px;
+}
+
+.small-text-center {
+  a {
+    text-align:center !important;
   }
 }

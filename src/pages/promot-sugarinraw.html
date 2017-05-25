@@ -1,0 +1,55 @@
+---
+subject: My Basic Email Template Subject
+---
+
+
+<container>
+
+  <spacer size="16"></spacer>
+  <row>
+    <columns small="12">
+      {{> pre-header}}
+    </columns>
+  </row>
+  <row>
+    <columns small="8">
+    <a href="https://momsmeet.com"><img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email-4_03-e1490802539756.jpg" alt="Moms Meet" class="float-left"  /></a>
+  </columns>
+  <columns small="4">
+    <img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email-4_05-e1490802575578.jpg" alt="Moms Meet" class="float-right" />
+  </columns>
+  </row>
+  <center>
+    <img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email_03-3.jpg" alt="Moms Meet" />
+  </center>
+  <spacer size="26"></spacer>
+
+  <row>
+    <columns large="8">
+      <p class="mktoText" id="maintext" mktoName="Main Body Text">
+  Hi \{{lead.First Name:default=Mom Ambassador}},<br /><br />We&rsquo;ve got a little something to share with you to sweeten up your day. For a limited time only, purchase new <strong>Organic Stevia In The Raw<sup>&trade;</sup></strong> sweetener at your local Costco and you&rsquo;ll receive an In The Raw<sup>&trade;</sup> gift worth over $20!<br /><br />Simply purchase the Organic Stevia In The Raw<sup>&trade;</sup> box and upload a photo of your Costco receipt, along with your contact information, to redeem your free gift.<br /><br /><span style="color: #ff0072;font-weight:bold;">Hurry, supplies are limited! Offer ends May 15, 2017.</span><br /><br />
+  <strong>Learn more about Organic Stevia In The Raw<sup>&trade;</sup></strong><br>
+  From the In The Raw sweetener family, comes a truly delicious organic stevia sweetener: Organic Stevia In The Raw<sup>&trade;</sup>. It dissolves quickly in both hot and cold beverages and is a perfect complement to cereal or fruit. It is certified USDA Organic, Non-GMO project verified, certified vegan, and naturally gluten-free. The box contains 600 sweetener packs and comes in a convenient countertop dispenser box&mdash;perfect for home or office use.
+      </p>
+    </columns>
+    <columns large="4" valign="middle">
+      <center>
+            <img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email-4_10.jpg" alt="Moms Meet" class="float-center" />
+      </center>
+    </columns>
+  </row>
+  <a href="https://momsmeet.wufoo.com/forms/submit-your-costco-receipt/">
+  <center>
+    <img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email_07.jpg" alt="Moms Meet" />
+  </center>
+</a>
+  <spacer size="26"></spacer>
+<a href="\{{system.forwardToFriendLink}}" target="_blank">
+<center>
+    <img src="https://momsmeet.com/wp-content/uploads/2017/03/mm_email_10.jpg" alt="Moms Meet" />
+  </center>
+</a>
+
+</container>
+
+        {{> footernosocial}}
